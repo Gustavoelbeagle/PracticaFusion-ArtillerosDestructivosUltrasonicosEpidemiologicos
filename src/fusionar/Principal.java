@@ -8,7 +8,13 @@ public class Principal {
 
 		Gato miGato=new Gato("Lulu","Verde");
 		
+
 		miGato.MandarMensaje();
+
+Ajolote miAjolote=new Ajolote("Alfredo","Rosa");
+		
+		miAjolote.MandarMensaje();
+
 	}
 
 }
