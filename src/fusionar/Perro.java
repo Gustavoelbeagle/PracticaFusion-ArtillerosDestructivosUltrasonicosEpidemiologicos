@@ -4,8 +4,8 @@ public class Perro extends Mascota {
 
 	private String tipo;
 
-	public Perro(String nombre, String tipo) {
-		super(nombre);
+	public Perro(String nombre, int edad, String tipo) {
+		super(nombre,edad);
 		this.tipo = tipo;
 	}
 
