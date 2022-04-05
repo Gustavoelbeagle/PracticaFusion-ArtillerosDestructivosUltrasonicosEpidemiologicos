@@ -18,6 +18,6 @@ public class Gato extends Mascota {
 	}
 
 	public void MandarMensaje() {
-		System.out.println("Soy " + this.getNombre() + " y hago miau miau y mi sexo es" + super.getSexo());
+		System.out.println("Soy " + this.getNombre() + " y hago miau miau ");
 	}
 }
