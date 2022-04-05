@@ -6,7 +6,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 
-		Gato miGato=new Gato("Lulu","Verde");
+		Gato miGato=new Gato("Lulu","Verde","terrestre");
 
 		miGato.MandarMensaje();
 

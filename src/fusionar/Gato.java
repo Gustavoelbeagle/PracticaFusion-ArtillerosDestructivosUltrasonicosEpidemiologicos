@@ -4,8 +4,8 @@ public class Gato extends Mascota {
 
 	private String tipo;
 
-	public Gato(String nombre, String tipo) {
-		super(nombre);
+	public Gato(String nombre, String medio, String tipo) {
+		super(nombre, medio);
 		this.tipo = tipo;
 	}
 
