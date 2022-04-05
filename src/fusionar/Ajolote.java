@@ -4,8 +4,8 @@ public class Ajolote extends Mascota{
 
 	private String color;
 
-	public Ajolote(String nombre, String color) {
-		super(nombre);
+	public Ajolote(String nombre, String medio, String color) {
+		super(nombre, medio);
 		this.color = color;
 	}
 	

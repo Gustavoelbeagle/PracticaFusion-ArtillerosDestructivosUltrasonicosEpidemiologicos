@@ -10,7 +10,7 @@ public class Principal {
 
 		miGato.MandarMensaje();
 
-Ajolote miAjolote=new Ajolote("Alfredo","Rosa");
+Ajolote miAjolote=new Ajolote("Alfredo","Rosa","acuatico");
 		
 		miAjolote.MandarMensaje();
 

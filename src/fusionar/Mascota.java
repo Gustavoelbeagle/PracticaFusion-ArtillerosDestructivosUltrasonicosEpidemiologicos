@@ -3,10 +3,12 @@ package fusionar;
 public class Mascota {
 
 	private String nombre;
-
-	public Mascota(String nombre) {
+	
+	private String medio;
+	
+	public Mascota(String nombre, String medio) {
 		this.nombre = nombre;
-
+		this.medio = medio;
 	}
 
 	public String getNombre() {
@@ -15,6 +17,14 @@ public class Mascota {
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}
+
+	public String getMedio() {
+		return medio;
+	}
+
+	public void setMedio(String medio) {
+		this.medio = medio;
 	}
 
 	public void MandarMensaje() {
