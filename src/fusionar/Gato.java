@@ -17,4 +17,7 @@ public class Gato extends Mascota {
 		this.tipo = tipo;
 	}
 
+	public void MandarMensaje() {
+		System.out.println("Soy " + this.getNombre() + " y hago miau miau");
+	}
 }
