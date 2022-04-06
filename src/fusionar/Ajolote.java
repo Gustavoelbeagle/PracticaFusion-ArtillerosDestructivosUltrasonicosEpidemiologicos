@@ -5,7 +5,7 @@ public class Ajolote extends Mascota{
 	private String color;
 
 	public Ajolote(String nombre, String color) {
-		super(nombre);
+		super(nombre, color);
 		this.color = color;
 	}
 	
