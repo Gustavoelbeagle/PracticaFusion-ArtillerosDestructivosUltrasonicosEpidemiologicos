@@ -30,7 +30,7 @@ public class Mascota {
 	}
 
 	public void MandarMensaje() {
-		System.out.println("Soy " + this.nombre + " y te voy a contar algo o no y mi sexo es " + "y mi sexo es" + this.getSexo());
+		System.out.println("Soy " + this.nombre + " y te voy a contar algo o no y mi sexo es y mi sexo es" + this.getSexo());
 	}
 
 }
