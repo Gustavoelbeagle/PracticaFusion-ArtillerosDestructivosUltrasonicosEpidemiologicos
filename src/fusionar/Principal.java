@@ -14,7 +14,7 @@ Ajolote miAjolote=new Ajolote("Alfredo","Rosa");
 		
 		miAjolote.MandarMensaje();
 
-		Perro miPerro=new Perro("Pepe","Azul");
+		Perro miPerro=new Perro("Pepe",2,"Azul");
 		
 		miPerro.MandarMensaje();
 		
