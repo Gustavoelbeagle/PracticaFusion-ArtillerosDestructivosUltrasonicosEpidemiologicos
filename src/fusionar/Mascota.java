@@ -18,7 +18,11 @@ public class Mascota {
 	}
 
 	public void MandarMensaje() {
+
 		System.out.println("Hola equipo! " + "Soy " + this.nombre + " te voy a contar algo o no");
+
+		System.out.println("Hola equipo precioso! " + "Soy " + this.nombre + " y te voy a contar algo o no");
+
 	}
 
 }
